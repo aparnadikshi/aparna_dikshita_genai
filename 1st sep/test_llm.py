@@ -1,0 +1,8 @@
+from llm_config import chat_model
+response=chat_model.invoke(
+    "Generate 5 test cases for an ecommerce login"
+)
+print("RESPONSE:")
+print(response)
+print("\n CONTENT:")
+print(response.content)
