@@ -1,0 +1,112 @@
+***1.Structure prompt:***
+
+Role: Act as a functional tester
+
+Context: We are testing a flight search application
+
+Task: Generate automation test cases for the flight search functionality
+
+Input: User Provides from city,To city,Departure date,Number of passengers and travel class.The system should display all the available flights and allow user to select one
+
+Constraints: Include negative,positive boundary and validation scenarios.Do not include performance testing.
+
+Output: Provide a table containing Test Case ID,Scenario,Preconditions,Steps,Test Data,Expected Result.
+
+
+
+***2.Zero-shot:***
+
+Generate test cases for flight search  where the user is able to provide From City,To City,Number of passengers,and Travel class then the system should display results where the user can select one.
+
+Give positive,negative scenarios for each test cases.
+
+
+
+***3.One shot:***
+
+A user is able to search for flight where the user is able to provide From City,To City,Number of passengers,and Travel class then the system should display results where the user can select one.
+
+
+
+Example: From city=Bengaluru, To City=Vishakapatanam, Number of passengers=2, Departure Date:20/09/2026 Travel class=Buisness and then the user is able to select the one.
+
+Then generate test cases with negative and positive and boundary scenarios.
+
+
+
+Each Test Case should include:
+
+* Test CaseID
+* Scenario
+* Preconditions
+* Steps
+* Test Data
+* Expected Result
+
+
+
+4.Chain Of Thoughts:
+
+Act as a QA engineer
+Analyze the flight search requirement systematically:
+A user is able to search for flights by entering From City,To City,Departure Date,Number of passengers and Travel class.The system should display the available flights and allow user to select one.
+
+Analyze:
+
+* All user inputs and their validation
+* Postive negative scenarios
+* Boundary and edge cases
+* possible invalid combinations of inputs
+* Flight search result scenarios
+* Flight selection scenarios
+
+Then provide:
+
+* Test Cases
+* Expected Results
+* Preconditions
+* Steps
+
+
+5.Few Shots:
+
+Act as a QA engineer
+
+A user is able to search for flights by entering From City,To City,Departure Date,Number of passengers and Travel class.The system should display the available flights and allow user to select one.
+
+Example1:
+Valid From City+ valid To city+valid departure date+valid no. of passengers+ valid travel class=the result should be successful
+
+Example2:
+InValid From City+ valid To city+valid departure date+valid no. of passengers+ valid travel class=the result should be unsuccessful.
+
+6.Self Consistency:
+
+Act as a QA Engineer.
+A flight search returns "No Flights Found" for valid inputs.
+Analyze from:
+Input Validation Issue
+Flight Data Issue
+Application Logic Issue
+User Error
+
+Identify the most likely cause and provide:
+Root Cause
+Evidence
+
+
+7.prompt-chaining
+Prompt 1 – Requirement Analysis
+ Analyze the flight search requirement and identify functional requirements, user actions, and validations.
+
+Prompt 2 – Test Scenarios
+ Generate positive, negative, and boundary test scenarios based on the identified requirements.
+
+Prompt 3 – Test Cases
+ Convert the scenarios into detailed test cases with Test Case ID, Steps, Test Data, and Expected Results.
+
+Prompt 4 – Automation
+ Convert the finalized test cases into Selenium Java automation scripts using TestNG and Page Object Model (POM).
+
+Flow: Requirement → Scenarios → Test Cases → Automation
+
