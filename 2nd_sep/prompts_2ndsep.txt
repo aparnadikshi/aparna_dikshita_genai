@@ -1,0 +1,225 @@
+
+==================================================================================================================
+Test case prompt:
+
+Role: Act as a functional tester
+
+Context: We are testing a payment gateway
+
+Task: Generate automation test cases for the payment gateway automation
+
+Input: User provides card holder Name, Card Number, CVV, Expiry Date , check the checkbox and then click on the button to make payment 
+
+Constraints: Include negative, positive ,boundary and validation scenarios. Do not include performance testing.
+
+Output: Generate detailed test cases in  a excel sheet containing Test Case ID, Test Case Name, Input Data, expected Results, Actual Results, Test Environment, Testcase Priority, Execution Status, Bug Severity, Bug Priority, Notes.Make sure all the test case name starts with verify
+
+==================================================================================================================
+Test data prompt:
+
+Identify the fields that require test data.
+Generate realistic and fictitious test data.
+Generate positive and negative test data where applicable.
+Generate boundary-value data where applicable.
+Generate empty, null, and blank values where applicable.
+Generate invalid-format data where applicable.
+Generate special-character and whitespace data where applicable.
+Generate security-related test data where applicable.
+Create multiple data combinations when required.
+Map every generated data set to the corresponding Test Case ID.
+Do not generate unnecessary data for test cases that do not require input.
+Do not use real people's personal information.
+ 
+Test Data Categories:
+ 
+Valid
+Invalid
+Boundary
+Empty/Null
+Invalid Format
+Special Characters
+Whitespace
+Negative
+Security
+link:Demo Web Shop    create a test data for this
+============================================================================================================================================================
+Test plan prompt
+
+Create a professional Microsoft Word Test Plan Document (.docx) for the e-commerce website:
+https://demowebshop.tricentis.com/
+Do not use generic placeholders or sample content. Analyze the website and tailor all sections specifically to its actual functionality, features, workflows, and modules.
+Requirements
+Generate a complete Test Plan containing:
+Document Information
+Project Name
+Application Name
+Version
+Date
+Prepared By
+Reviewed By
+Approved By
+Document Status
+Revision History
+Project Overview
+Project Description
+Business Objectives
+Application Overview
+Testing Objectives
+Release Scope
+In-Scope Modules and Features
+Out-of-Scope Items
+Included and Excluded Functionality
+Test Items
+Website Components
+Database
+APIs (if applicable)
+Test Strategy & Approach
+Functional Testing
+Regression Testing
+Integration Testing
+UI Testing
+Cross-Browser Testing
+Compatibility Testing
+Security Testing
+Performance Testing
+Exploratory Testing
+Automation Strategy
+Test Environment & Test Data
+Browsers
+Devices
+Environment Details
+Test Accounts
+Product Data
+Payment Test Data
+Resource Estimation
+Roles and Responsibilities
+Effort Estimation
+Required Tools
+Test Deliverables
+Test Scenarios
+Test Cases
+Defect Reports
+RTM
+Test Summary Report
+Requirements Traceability Matrix (RTM)
+Entry Criteria
+Exit Criteria
+Suspension and Resumption Criteria
+Defect Management Process
+Lifecycle
+Severity Levels
+Priority Levels
+Defect Report Template
+Schedule & Milestones
+Planning
+Test Design
+Execution
+Defect Fixing
+Regression
+Closure
+Risks and Mitigation Plan
+Project Risks
+Environment Risks
+Data Risks
+Dependency Risks
+Mitigation Actions
+Review and Approval Process
+Important Instructions
+Identify and document actual modules from Demo Web Shop such as:
+Registration
+Login
+Product Catalog
+Search
+Categories
+Shopping Cart
+Wishlist
+Compare Products
+Checkout
+Orders
+Customer Account
+Newsletter
+Contact Us
+Gift Cards
+Digital Downloads
+Provide realistic, project-specific content rather than template text.
+Use professional QA documentation standards.
+Format the output as a fully structured Microsoft Word Test Plan document (.docx) with headings, tables, and numbering suitable for stakeholder review and approval.
+Link:Demo Web Shop make a test plan document on this website based on this template
+
+============================================================================================================================================================
+Bug Report prompt:
+
+make a bug report  with the template Bug ID ,Requirement ID ,testcase ID,Bug Title,Module,Feature,Enviornment,Build/vison,Browser,Severity,Priority,DefectType,Preconditions,TestData Steps to reproduce,Expected Result,Actual Result,Error message,Evidence,Status donot make different user ,make one user with dufferent types and consolidate the bugs
+
+============================================================================================================================================================
+
+Bug analysis report prompt:
+
+make bug analysis report on the defects just gave with the template application Defect,Automation Defect,Test Data Issue,Enviornment/Infrastructure issue,Network API Issue,Configuration Issue,Requirement/test case issue,Unknown/Insufficient Evidence
+
+
+
+============================================================================================================================================================
+
+test strategy prompt:
+Give me test strategy report with the template:Test objectives,Overall testing approach,testing Types,Tools And testing enviornment,roles and responibilities,risk management,entry exit criteria for the website:Swag Labs
+
+==================================================================================================================
+test execution prompt:
+
+give test execution report Simple Test Execution Report
+Field Details
+Project E-Commerce Application
+Application Online Shopping Website
+Test Cycle Regression Testing
+Environment QA
+Execution Date 02-Sep-2026
+Tester AI Testing Agent
+Overall Status PARTIALLY PASSED
+Execution Summary
+Metric Count
+Total Test Cases 20
+Executed 20
+Passed 16
+Failed 3
+Blocked 1
+Skipped 0
+Pass Percentage 80%
+Test Results
+Test Case ID Test Case Status Remarks
+TC-001 Valid Login PASS User logged in successfully
+TC-002 Invalid Login PASS Error message displayed
+TC-003 Empty Username PASS Validation message displayed
+TC-004 Empty Password PASS Validation message displayed
+TC-005 Search Product PASS Product displayed
+TC-006 Add Product to Cart PASS Product added successfully
+TC-007 Remove Product from Cart PASS Product removed
+TC-008 Update Cart Quantity FAIL Quantity not updated correctly
+TC-009 Checkout PASS Checkout page opened
+TC-010 Place Order FAIL Order submission failed
+Failure Analysis
+Test Case Failure Type Severity AI Analysis
+TC-008 Application Defect Medium Cart quantity is not updated correctly
+TC-010 Application Defect High Order submission fails after clicking Place Order
+TC-015 Automation Issue Low Locator was not found
+Defect Summary
+Severity Count
+Critical 0
+High 1
+Medium 1
+Low 1
+Total 3
+Final Assessment
+ 
+Overall Result: PARTIALLY PASSED
+ 
+Recommendation: ⚠️ Release Not Recommended
+ 
+Reason: One high-severity defect
+
+======================================================================================================================================================
+
+RTM prompt:
+using these user stories generate Requirement tracebility matrix  which contains Requirement ID, Requirement Description, Test Case IDs, Test status in excel
+
+
