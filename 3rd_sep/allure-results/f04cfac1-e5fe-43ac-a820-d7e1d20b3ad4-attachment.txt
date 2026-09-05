@@ -1,0 +1,8 @@
+clicked add
+done add
+Transfer of $700.00 completed successfully.
+Checking Balance: $3,550.00
+Savings Balance: $3,550.00
+net worth $22,650.00
+Workflow Completed Successfully
+signned out
