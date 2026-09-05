@@ -1,0 +1,19 @@
+{"login":{
+"username": "apex_user",
+"password": "Password123!"
+},
+"beneficiaryadd":{
+    "name":"John Doe",
+    "acc":"1234567",
+    "drop":"Bank of America"
+},
+"transfer":{
+    "transferType": "Between My Accounts",
+    "fromAccount": "Checking ($4250)",
+    "toAccount": "Savings ($18400)",
+    "amount": "700"
+},
+"accountBalance": {
+"checkingBalance": "Checking ($4250)",
+"savingsBalance": "Savings ($18400)"
+}}
